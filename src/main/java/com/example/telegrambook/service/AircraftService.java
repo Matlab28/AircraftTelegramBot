@@ -26,8 +26,8 @@ import java.util.Random;
 public class AircraftService {
     private final AircraftClient client;
     private final TelegramAircraftClient telegramClient;
-    private final String host = "sky-scanner3.p.rapidapi.com";
-    private final String key = "674678e122mshd00ec5b8f945302p1052bcjsn0ad69ed2af91";
+    private final String host = "YOUR_RAPID_API_HOST";
+    private final String key = "YOUR_RAPID_API_KEY";
     private Random random = new Random();
     private Long lastUpdateId = 0L;
 
